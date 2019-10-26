@@ -1,0 +1,39 @@
+{
+  "name": "js-filters",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -w --config rollup.config.js",
+    "build": "cross-env NODE_ENV=production rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "js",
+    "filters"
+  ],
+  "author": "chenjun",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "typescript": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InvincibleJun/js-filter"
+  },
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "autoprefixer": "^9.7.0",
+    "cross-env": "^6.0.3",
+    "rollup": "^1.25.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.3",
+    "tslib": "^1.10.0"
+  }
+}
